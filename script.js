@@ -19,7 +19,7 @@ setInterval( () => {
     minutos = parseInt(segundosTotal / 60);
     segundos = parseInt(segundosTotal % 60);
     
-    // Se dias for menor do q 10 acrecenta uma string "0" e concatena com dis
+    // Se dias for menor do q 10 acrecenta uma string "0" e concatena com dias
     document.getElementById("dias").innerHTML = dias < 10 ? "0" + dias : dias;
     document.getElementById("horas").innerHTML = horas < 10 ? "0" + horas : horas;
     document.getElementById("minutos").innerHTML = minutos < 10 ? "0" + minutos : minutos;
